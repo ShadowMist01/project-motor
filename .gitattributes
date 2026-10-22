@@ -1,0 +1,9 @@
+# Normalise line endings in the repository; keep checkout native.
+* text=auto
+
+*.ino text
+*.h   text
+*.md  text
+
+*.png binary
+*.jpg binary

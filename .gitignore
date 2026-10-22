@@ -1,0 +1,28 @@
+# Local configuration with real card UIDs (copy from card_config.example.h)
+Card/card_config.h
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Arduino / PlatformIO build output
+build/
+.pio/
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Logs
+*.log
